@@ -15,8 +15,7 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   
-  get 'favorite-song
-' do
+  get 'favorite-song' do
     "Hello, World!"
   end
   

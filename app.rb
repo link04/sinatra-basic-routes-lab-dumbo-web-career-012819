@@ -8,16 +8,15 @@ class App < Sinatra::Base
   end
   
   get 'name' do
-    "Hello, World!"
+    "My name is Maximo"
   end
   
   get 'hometown' do
-    "Hello, World!"
+    "My hometown is La Romana R.D."
   end
   
   get 'favorite-song' do
-    "Hello, World!"
+    "My favorite song is The Time"
   end
-  
-  The name route should display "My name is __" in the browser, the hometown route should display "My hometown is __", and the favorite-song route should display "My favorite song is __".
+
 end
